@@ -1,0 +1,68 @@
+body {
+  text-align: center;
+  background-color: #a9d7d1;
+  font-family: 'Raleway', Helvetica, sans-serif;
+}
+input, textarea, select, option {
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: 1.5px solid #a9d7d1;
+
+}
+#title {
+  width: 100%;
+  height: auto;
+  font-family: Lato;
+  margin: 10px auto;
+}
+.form {
+  background-color: rgb(250, 250, 250);
+  max-width: 950px;
+  border-radius: 5px;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-row {
+  width: 100%;
+  margin: 5px auto;
+  min-height: 40px;
+  padding: 5px;
+  display: flex;
+}
+.left-side {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  text-align: right;
+  position: relative;
+  right: 10px;
+  top: 5px;
+}
+.right-side {
+  width: 50%;
+  display: inline-block;
+  float: right;
+  text-align: left;
+
+}
+ul {
+  position: relative;
+  left: -40px;
+  top: -15px;
+}
+li {
+  list-style: none;
+  padding: 5px 0;
+
+}
+
+#submit {
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0);
+  padding: 10px 20px;
+  margin: 20px auto;
+  font-size: 16px;
+  cursor: pointer;
+}
